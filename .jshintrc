@@ -1,0 +1,15 @@
+{
+  "curly": false,
+  "globalstrict": true,
+  "node": true,
+  "eqnull": true,
+  "esnext": true,
+  "freeze": true,
+  "indent": 2,
+  "undef": true,
+  "unused": true,
+  "node": true,
+  "noyield": true,
+  "shadow":true,
+  "predef": ["-Promise"]
+}
