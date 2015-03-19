@@ -6,7 +6,7 @@
   "scripts": {
     "test": "./node_modules/.bin/mocha",
     "lint": "./node_modules/.bin/jshint ./lib",
-    "doc": "node ./node_modules/.bin/jsdoc -p -d ./docs ./lib"
+    "doc": "./node_modules/.bin/jsdoc -p -d ./docs ./lib"
   },
   "author": "",
   "license": "ISC",
@@ -28,7 +28,7 @@
     "should": "^5.2.0"
   },
   "peerDependencies": {
-    "jaffamvc-koa": "~0.3.1"
+    "jaffamvc-koa": "^0.3.1"
   },
-  "pre-commit": ["lint", "test", "doc"]
+  "pre-commit": ["lint", "test"]
 }

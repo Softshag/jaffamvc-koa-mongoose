@@ -11,8 +11,6 @@ describe('connection', function () {
       port: 27017,
       db: 'test-db'
     });
-
-
   });
 
   it('should connect', function *() {
