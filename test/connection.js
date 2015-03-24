@@ -6,7 +6,7 @@ var MongoStore = require('../lib/mongo-store');
 describe('connection', function () {
 
   before(function * () {
-    this.store = new MongoStore({
+    this.store = new MongoStore(null, {
       host: 'localhost',
       port: 27017,
       db: 'test-db'
